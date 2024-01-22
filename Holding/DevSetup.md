@@ -1,134 +1,143 @@
 # Dev Setup
 
+- Hardware
+    - RAM => At least 16 GB
+    - Disk => SSD (the lower, the better => 128 GB)
+        - If your disk is HDD, please change it
+    - CPU => at least 4 cores
+        - 16 cores are the best
+
+---
+
 - OS (Ubuntu)
-  - Only 22.04.3 LTS
-  - Only from [ubunto.com](https://ubuntu.com/download/desktop/thank-you?version=22.04.3&architecture=amd64)
-  - Create a bootable image
-    - using [balenaEtcher](https://ubuntu.com/tutorials/install-ubuntu-desktop#3-create-a-bootable-usb-stick)
-  - Boot from your bootable USB
-    - Usually Escape, F1, or Delete keys are used to enter BIOS
-  - Choose **Install Ubuntu**
-    - Select English (US)
-  - Keyboard layout
-    - English (US)
-  - DO NOT Connect to WiFi
-    - Reason: faster installation and async update after installation
-  - Minimal installation
-    - Make sure no checkbox is selected
-  - Erase the disk and install Ubuntu
-    - Always be ready to lose your machine
-    - Advanced features
-      - None
-  - Press **Install Now**
-    - Press **Continue**
-  - Where are you?
-    - Choose Tehran
-    - Press **Continue**
-  - Computer name = local (all lowercase)
-  - User name = your first name (all lowercase)
-    - This means that your prompt would become `your-first-name@local:` (all lowercase)
-  - Set password to 100 (you will be asked for it frequently)
-  - **DO NOT** choose *Log in automatically*
-  - **CHOOSE** Require my password to login
-  - Wait for the installation
-  - Do not **Enable Ubuntu Pro**
-    - Select **Skip for now**
-  - **DO NOT** help Ubuntu
-    - Select **No, don't send system info**
-  - Privacy off
-  - Click Done (don't worry about progress)
+    - Only 22.04.3 LTS
+    - Only from [ubunto.com](https://ubuntu.com/download/desktop/thank-you?version=22.04.3&architecture=amd64)
+    - Create a bootable image
+        - using [balenaEtcher](https://ubuntu.com/tutorials/install-ubuntu-desktop#3-create-a-bootable-usb-stick)
+    - Boot from your bootable USB
+        - Usually Escape, F1, or Delete keys are used to enter BIOS
+    - Choose **Install Ubuntu**
+        - Select English (US)
+    - Keyboard layout
+        - English (US)
+    - DO NOT Connect to WiFi
+        - Reason: faster installation and async update after installation
+    - Minimal installation
+        - Make sure no checkbox is selected
+    - Erase the disk and install Ubuntu
+        - Always be ready to lose your machine
+        - Advanced features
+            - None
+    - Press **Install Now**
+        - Press **Continue**
+    - Where are you?
+        - Choose Tehran
+        - Press **Continue**
+    - Computer name = local (all lowercase)
+    - User name = your first name (all lowercase)
+        - This means that your prompt would become `your-first-name@local:` (all lowercase)
+    - Set password to 100 (you will be asked for it frequently)
+    - **DO NOT** choose *Log in automatically*
+    - **CHOOSE** Require my password to login
+    - Wait for the installation
+    - Do not **Enable Ubuntu Pro**
+        - Select **Skip for now**
+    - **DO NOT** help Ubuntu
+        - Select **No, don't send system info**
+    - Privacy off
+    - Click Done (don't worry about progress)
   
 ---
 
 - Connect to WiFi
 - Setup [shecan.ir](https://shecan.ir/tutorials/)
-  - Disconnect & reconnect the WiFi
+    - Disconnect & reconnect the WiFi
 - Install the software using our installation script
-  - `sudo mkdir /Temp`
-  - `sudo chmod 777 /Temp`
-  - `cd /Temp`
-  - `wget https://raw.githubusercontent.com/HolismHolding/Setup/main/Dev -O Setup`
-  - `sudo chmod 777 Setup`
-  - `sudo ./Setup`
-  - `./Setup`
-  - Run our `./Setup` command once with `sudo`, and once without it. It's idempotent.
+    - `sudo mkdir /Temp`
+    - `sudo chmod 777 /Temp`
+    - `cd /Temp`
+    - `wget https://raw.githubusercontent.com/HolismHolding/Setup/main/Dev -O Setup`
+    - `sudo chmod 777 Setup`
+    - `sudo ./Setup`
+    - `./Setup`
+    - Run our `./Setup` command once with `sudo`, and once without it. It's idempotent.
 
 - Docker
-  - In case of permission denied
-    - test with `sudo` and make sure it works
-    - if it works with `sudo`, run these commands
-      - `sudo gpasswd -a $USER docker`
-      - `newgrp docker`
-      - `sudo groupadd docker`
-      - `sudo usermod -aG docker ${USER}`
-      - `sudo usermod -aG docker $USER`
+    - In case of permission denied
+        - test with `sudo` and make sure it works
+        - if it works with `sudo`, run these commands
+            - `sudo gpasswd -a $USER docker`
+            - `newgrp docker`
+            - `sudo groupadd docker`
+            - `sudo usermod -aG docker ${USER}`
+            - `sudo usermod -aG docker $USER`
 
 - Git 
-  - Generate keys and add your public key to GitHub 
-    - Open terminal 
-    - `ssh-keygen -t ed25519 -C "your-email"`
-    - Enter 3 times 
-      - Accept default filename 
-      - Empty password 
-      - Empty password, again 
-    - GitHub 
-      - Settings 
-      - SSH and GPG keys 
-      - New SSH Key 
-      - `cat ~/.ssh/id_ed25519.pub`
-      - Copy/paste your public key there 
-    - Run `ssh -T git@github.com` to test the connection
-  - Introduce yourself to git 
-    - `git config --global user.email "your-email-of-github-here"` 
-    - `git config --global user.name "your name here"`
-  - Add your PAT token to /LocalSecrets/GitHubAccessToken
-    - `sudo mkdir /LocalSecrets`
-    - `sudo chmod 777 /LocalSecrets`
-    - Go to github.com
-    - Profile
-    - Settings
-    - Developer settings
-    - Personal access tokens
-    - Generate new token (classic)
-    - Note => RepositoryCloningToken
-    - Expiration => No expiration
-    - Scope => repo (full)
-    - Copy your PAT
-    - `micro /LocalSecrets/GitHubAccessToken`
-    - Paste it
-    - Save it
+    - Generate keys and add your public key to GitHub 
+        - Open terminal 
+        - `ssh-keygen -t ed25519 -C "your-email"`
+        - Enter 3 times 
+            - Accept default filename 
+            - Empty password 
+            - Empty password, again 
+        - GitHub 
+            - Settings 
+            - SSH and GPG keys 
+            - New SSH Key 
+            - `cat ~/.ssh/id_ed25519.pub`
+            - Copy/paste your public key there 
+        - Run `ssh -T git@github.com` to test the connection
+    - Introduce yourself to git 
+        - `git config --global user.email "your-email-of-github-here"` 
+        - `git config --global user.name "your name here"`
+    - Add your PAT token to /LocalSecrets/GitHubAccessToken
+        - `sudo mkdir /LocalSecrets`
+        - `sudo chmod 777 /LocalSecrets`
+        - Go to github.com
+        - Profile
+        - Settings
+        - Developer settings
+        - Personal access tokens
+        - Generate new token (classic)
+        - Note => RepositoryCloningToken
+        - Expiration => No expiration
+        - Scope => repo (full)
+        - Copy your PAT
+        - `micro /LocalSecrets/GitHubAccessToken`
+        - Paste it
+        - Save it
 
 - Chrome
-  - Do not send crash reports
-  - Sign in
-  - Extensions
-    - JSONViewer
-    - Grammarly
-    - React Developer Tools
-  - Add breakpoints
-    - These numbers are for width
-    - Leave the height as the default value
-    - xs (360)
-    - sm (640)
-    - md (768)
-    - lg (1024)
-    - xl (1280)
-    - xxl (1536)
+    - Do not send crash reports
+    - Sign in
+    - Extensions
+        - JSONViewer
+        - Grammarly
+        - React Developer Tools
+    - Add breakpoints
+        - These numbers are for width
+        - Leave the height as the default value
+        - xs (360)
+        - sm (640)
+        - md (768)
+        - lg (1024)
+        - xl (1280)
+        - xxl (1536)
 
 - VS Code
-  - DO NOT turn on the sync
-  - **DO NOT** install any other extensions on VS Code
+    - DO NOT turn on the sync
+    - **DO NOT** install any other extensions on VS Code
 
 - Clone
-  - `sudo mkdir /HolismHolding`
-  - `sudo chmod 777 /HolismHolding`
-  - `cd /HolismHolding`
-  - `git clone git@github.com:HolismHolding/Commands`
-  - `git clone git@github.com:HolismHolding/Scripts`
-  - `git clone git@github.com:HolismHolding/Setup`
-  - `Install`
-  - `Update`
-  - `ResetHolism`
+    - `sudo mkdir /HolismHolding`
+    - `sudo chmod 777 /HolismHolding`
+    - `cd /HolismHolding`
+    - `git clone git@github.com:HolismHolding/Commands`
+    - `git clone git@github.com:HolismHolding/Scripts`
+    - `git clone git@github.com:HolismHolding/Setup`
+    - `Install`
+    - `Update`
+    - `ResetHolism`
 
 ---
 
