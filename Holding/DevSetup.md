@@ -46,7 +46,7 @@
         - Select **No, don't send system info**
     - Privacy off
     - Click Done (don't worry about progress)
-  
+
 ---
 
 - Connect to WiFi
@@ -72,23 +72,23 @@
             - `sudo usermod -aG docker ${USER}`
             - `sudo usermod -aG docker $USER`
 
-- Git 
-    - Generate keys and add your public key to GitHub 
-        - Open terminal 
+- Git
+    - Generate keys and add your public key to GitHub
+        - Open terminal
         - `ssh-keygen -t ed25519 -C "your-email"`
-        - Enter 3 times 
-            - Accept default filename 
-            - Empty password 
-            - Empty password, again 
-        - GitHub 
-            - Settings 
-            - SSH and GPG keys 
-            - New SSH Key 
+        - Enter 3 times
+            - Accept default filename
+            - Empty password
+            - Empty password, again
+        - GitHub
+            - Settings
+            - SSH and GPG keys
+            - New SSH Key
             - `cat ~/.ssh/id_ed25519.pub`
-            - Copy/paste your public key there 
+            - Copy/paste your public key there
         - Run `ssh -T git@github.com` to test the connection
-    - Introduce yourself to git 
-        - `git config --global user.email "your-email-of-github-here"` 
+    - Introduce yourself to git
+        - `git config --global user.email "your-email-of-github-here"`
         - `git config --global user.name "your name here"`
     - Add your PAT token to /LocalSecrets/GitHubAccessToken
         - `sudo mkdir /LocalSecrets`
@@ -137,7 +137,7 @@
     - `git clone git@github.com:HolismHolding/Setup`
     - `Install`
     - `Update`
-    - `ResetHolism`
+    - `RecloneHolism`
 
 ---
 
