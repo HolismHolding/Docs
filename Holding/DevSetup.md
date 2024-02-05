@@ -52,6 +52,7 @@
 - Connect to WiFi
 - Setup [shecan.ir](https://shecan.ir/tutorials/)
     - Disconnect & reconnect the WiFi
+    - Alternatively you can use https://403.online/
 - Install the software using our installation script
     - `sudo mkdir /Temp`
     - `sudo chmod 777 /Temp`
