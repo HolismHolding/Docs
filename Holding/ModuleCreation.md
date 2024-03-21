@@ -14,4 +14,4 @@
         - HolismPanel
         - HolismSite
     - The all should have the same names
-    - 
+    -
