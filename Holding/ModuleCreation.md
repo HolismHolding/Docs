@@ -10,8 +10,6 @@
         - If you will have an entity type that is the same name of the module (for example Order entity type in Order module), then DO name your module plural
 - Creation
     - Create a new repository in
-        - HolismApi
-        - HolismPanel
-        - HolismSite
+        - HolismHolding
     - The all should have the same names
     -
