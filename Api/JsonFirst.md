@@ -1,10 +1,9 @@
 # JSON first
 
-- Create a file called `Database.json` inside the root directory of your module
+- Create a file called `Database.json` inside the API directory of your module
 - Valid properties are:
     - `name` (required)
     - `tables` (optional)
-    - `views` (optional)
 - To generate code and database, `Setup` an API project, for example `AdminApi` or `SiteApi`
 - `Enter`
 - `Generate ModuleName`
