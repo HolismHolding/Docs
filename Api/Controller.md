@@ -8,7 +8,7 @@ Read-only tree structures should inherit from `ReadTreeController<ReadModel>`
 
 Read-write tree structures should inherit from `TreeController<ReadModel, WriteModel>`
 
-If there is no model related to the controller, inherit it from `HolismController`
+If there is no model related to the controller, inherit it from `AuthorizedController`
 
 If you need to access all data on the client, it is a `ClientLookup` controller. It should inherit from `ClientLookupReadController<ReadModel>` or `ClientLookupController<ReadModel, WriteModel>` based on read-write requirements.
 
