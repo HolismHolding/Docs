@@ -10,7 +10,7 @@
         - `SiteQwik` uses [Qwik from Builder.io](https://qwik.builder.io)
         - `SiteNext` uses [Next.js from Vercel](https://nextjs.org)
 - Go inside the API or Panel or Site directory
-- Run `Setup`
+- Run `Start`
 
 If the default domain is not suitable for you, then
 
