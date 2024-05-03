@@ -28,23 +28,22 @@
         - Reason: faster installation and async update after installation
     - Choose **Install Ubuntu**
     - Choose **Interactive Installation**
-    - Minimal installation
-        - Make sure no checkbox is selected
-    - Erase the disk and install Ubuntu
+    - Choose **Default selection**
+    - Select none in **Install recommended proprietary software**
+    - Choose **Erase disk and install Ubuntu**
         - Always be ready to lose your machine
         - Advanced features
             - None
-    - Press **Install Now**
-        - Press **Continue**
+    - User name = your first name (all lowercase)
+    - Computer name = local (all lowercase)
+        - This means that your prompt would become `your-first-name@local:` (all lowercase)
+    - Do not change the username
+    - Set password to 100 (you will be asked for it frequently)
+    - **CHOOSE** Require my password to login
     - Where are you?
         - Choose Tehran
         - Press **Continue**
-    - Computer name = local (all lowercase)
-    - User name = your first name (all lowercase)
-        - This means that your prompt would become `your-first-name@local:` (all lowercase)
-    - Set password to 100 (you will be asked for it frequently)
-    - **DO NOT** choose *Log in automatically*
-    - **CHOOSE** Require my password to login
+    - Hit **Install**
     - Wait for the installation
     - Do not **Enable Ubuntu Pro**
         - Select **Skip for now**
