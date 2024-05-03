@@ -19,10 +19,15 @@
         - Usually Escape, F1, or Delete keys are used to enter BIOS
     - Choose **Install Ubuntu**
         - Select English (US)
+    - No change in **Accessibility in Ubuntu**
     - Keyboard layout
         - English (US)
-    - DO NOT Connect to WiFi
+        - Keyboard variant
+          - English (US)
+    - DO NOT Connect to the Internet
         - Reason: faster installation and async update after installation
+    - Choose **Install Ubuntu**
+    - Choose **Interactive Installation**
     - Minimal installation
         - Make sure no checkbox is selected
     - Erase the disk and install Ubuntu
