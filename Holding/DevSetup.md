@@ -118,12 +118,12 @@
     - Add breakpoints
         - These numbers are for width
         - Leave the height as the default value
-        - xs (360)
-        - sm (640)
-        - md (768)
-        - lg (1024)
-        - xl (1280)
-        - xxl (1536)
+        - 1- xs (360)
+        - 2- sm (640)
+        - 3- md (768)
+        - 4- lg (1024)
+        - 5- xl (1280)
+        - 6- xxl (1536)
 
 - VS Code
     - DO NOT turn on the sync
