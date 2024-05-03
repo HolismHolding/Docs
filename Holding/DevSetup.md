@@ -45,12 +45,15 @@
         - Press **Continue**
     - Hit **Install**
     - Wait for the installation
+    - Hit **Restart now**
+    - Remove flash and hit Enter
+    - Login
+    - Hit **Next**
     - Do not **Enable Ubuntu Pro**
         - Select **Skip for now**
     - **DO NOT** help Ubuntu
-        - Select **No, don't send system info**
-    - Privacy off
-    - Click Done (don't worry about progress)
+        - Select **No, don't share system data**
+    - Hit **Finish**
 
 ---
 
