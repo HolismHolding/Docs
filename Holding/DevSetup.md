@@ -10,8 +10,8 @@
 ---
 
 - OS (Ubuntu)
-    - Only 22.04.3 LTS
-    - Only from [ubunto.com](https://ubuntu.com/download/desktop/thank-you?version=22.04.3&architecture=amd64)
+    - Only 24.04 LTS
+    - Only from [ubunto.com](https://ubuntu.com/download/desktop/thank-you?version=24.04&architecture=amd64&lts=true)
     - Create a bootable image
         - using [balenaEtcher](https://ubuntu.com/tutorials/install-ubuntu-desktop#3-create-a-bootable-usb-stick)
     - Boot from your bootable USB
