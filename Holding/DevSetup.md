@@ -62,7 +62,7 @@
     - Disconnect & reconnect the WiFi
     - Alternatively you can use https://403.online/
 - Install the software using our installation script
-    - `sudo mkdir /Temp`
+    - `sudo mkdir - p /Temp`
     - `sudo chmod 777 /Temp`
     - `cd /Temp`
     - `wget https://raw.githubusercontent.com/HolismHolding/Setup/main/Dev -O Setup`
