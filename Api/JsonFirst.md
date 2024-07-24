@@ -29,7 +29,7 @@ A sample of a `Database.json` for a simple blog:
 hasContent
 hasDefault
 hasEntityType
-hasGuid
+hasUuid
 hasImage
 hasKey
 hasOrder
