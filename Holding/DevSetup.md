@@ -137,6 +137,12 @@
     - DO NOT turn on the sync
     - **DO NOT** install any other extensions on VS Code
 
+- RustDesk
+    - Settings
+        - Network
+            - ID server: iranrustdesk.ir
+            - Relay server: iranrustdesk.ir
+
 - Clone
     - `sudo mkdir /HolismHolding`
     - `sudo chmod 777 /HolismHolding`
