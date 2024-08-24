@@ -69,6 +69,7 @@
     - `sudo chmod 777 Setup`
     - `sudo ./Setup`
     - `./Setup`
+    - `sudo ./Setup`
     - Run our `./Setup` command once with `sudo`, and once without it. It's idempotent.
 
 - Docker
