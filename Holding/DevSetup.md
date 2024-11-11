@@ -133,6 +133,11 @@
         - 4- lg (1024)
         - 5- xl (1280)
         - 6- xxl (1536)
+    - If you prefer dark mode, you can make all sites appear dark:
+        - chrome://flags
+        - Search for dark
+        - Set to `enabled`
+        - Relaunch
 
 - VS Code
     - DO NOT turn on the sync
