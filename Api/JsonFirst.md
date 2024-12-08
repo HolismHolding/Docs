@@ -1,6 +1,6 @@
 # JSON first
 
-- Create a file called `Database.json` inside the API directory of your module
+- Create a file called `Part.json` inside the API directory of your module
 - Valid properties are:
     - `name` (required)
     - `tables` (optional)
@@ -8,7 +8,7 @@
 - `Enter`
 - `Generate ModuleName`
 
-A sample of a `Database.json` for a simple blog:
+A sample of a `Part.json` for a simple blog:
 
 ```
 {
