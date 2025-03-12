@@ -138,6 +138,7 @@
         - Search for dark
         - Set to `enabled`
         - Relaunch
+        - Or install the [Dark Reader](https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en&pli=1) extension
 
 - VS Code
     - DO NOT turn on the sync
