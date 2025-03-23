@@ -1,0 +1,9 @@
+- Least length (or fixed length) = 20 characters (based on https://www.passwordmonster.com/)
+    - This length will change based on the future of Quantum Computation
+- Username should also be a password (security in depth)
+    - Username: Y7FmjEhiYPXgqzx9gQt4
+    - Password: XEDg6XJ9gzrEyPd44Rqz
+- Do not use special characters unless forced (sometimes we need to enter them manually and special characters make it harder)
+- Prevent similar characters like:
+    - Zero and English o
+    - i and l
