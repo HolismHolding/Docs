@@ -14,12 +14,11 @@ To manage the menu, go to your `Panel` project (for example `AdminPanel` or `Cli
 Inside `Menu.jsx` write this code:
 
 ```
-import AirportShuttleIcon from '@mui/icons-material/AirportShuttle'
 
 const menuItems = [
     {
         title: 'Parent menu item',
-        icon: AirportShuttleIcon,
+        icon: "AirportShuttle",
         children: [
             {
                 title: 'Amazing submenu one',
