@@ -128,12 +128,12 @@
     - Add breakpoints
         - These numbers are for width
         - Leave the height as the default value
-        - 1- xs (360)
-        - 2- sm (640)
-        - 3- md (768)
-        - 4- lg (1024)
-        - 5- xl (1280)
-        - 6- xxl (1536)
+        - 1. xs (360)
+        - 2. sm (640)
+        - 3. md (768)
+        - 4. lg (1024)
+        - 5. xl (1280)
+        - 6. xxl (1536)
     - If you prefer dark mode, you can make all sites appear dark:
         - chrome://flags
         - Search for dark
