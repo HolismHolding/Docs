@@ -97,6 +97,9 @@
             - New SSH Key
             - `cat ~/.ssh/id_ed25519.pub`
             - Copy/paste your public key there
+            - New SSH Key
+            - This time, select the `Signing Key` from the drop down (Key type)
+            - Copy/paste your public key there
         - Run `ssh -T git@github.com` to test the connection
     - Introduce yourself to git
         - `git config --global user.email "your-email-of-github-here"`
