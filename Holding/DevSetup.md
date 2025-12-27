@@ -34,9 +34,9 @@
         - Always be ready to lose your machine
         - Advanced features
             - None
-    - User name = your first name (all lowercase)
+    - User name = dev (all lowercase)
     - Computer name = local (all lowercase)
-        - This means that your prompt would become `your-first-name@local:` (all lowercase)
+        - This means that your prompt would become `dev@local:` (all lowercase)
     - Do not change the username
     - Set password to 100 (you will be asked for it frequently)
     - **CHOOSE** Require my password to login
